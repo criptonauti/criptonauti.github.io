@@ -27,6 +27,7 @@
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
 
     {% include tracking-header.html %}
 
@@ -61,7 +62,6 @@
     <!-- Content -->
     <main role="main" class="site-content">
         <div class="row remove-site-content-margin">
-            <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
             <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,litecoin,ripple,binancecoin,cardano,polkadot,bitcoin-cash,stellar,dogecoin,tether" currency="eur" background-color="#ffffff" locale="en"></coingecko-coin-price-marquee-widget>
         </div>
         {{ content }}
