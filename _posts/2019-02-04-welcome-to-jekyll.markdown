@@ -4,8 +4,7 @@ title:  "Welcome to Jekyll!"
 categories: [ Jekyll ]
 image: assets/images/demo1.jpg
 ---
-
-<iframe src="https://lunarcrush.com/widgets/galaxyscore?symbol=BTC&interval=1 Week&animation=false&diamond=true&theme=dark" id="galaxy-score" frameBorder="0" border="0" cellspacing="0" scrolling="no" style="width: 100%; height: 560px;"></iframe>
+<iframe src="https://lunarcrush-widgets.firebaseapp.com/galaxy?key=yhtm2zmcsi811xa1qfl6a&symbol=BTC&interval=1 Week&animation=false&theme=light" id="galaxy-score" frameBorder="0" border="0" cellspacing="0" scrolling="no" style="width: 100%; height: 300px;"></iframe><iframe src="https://lunarcrush-widgets.firebaseapp.com/wordcloud?key=yhtm2zmcsi811xa1qfl6a&symbol=BTC&interval=1 Week&animation=false&theme=light" id="wordcloud" frameBorder="0" border="0" cellspacing="0" scrolling="no" style="width: 100%; height: 300px;"></iframe>
 
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
