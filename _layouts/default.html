@@ -52,6 +52,12 @@
         </div>
     </div>
     </nav>
+    <div class="container">
+        <div class="prices-ticker">
+            <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+            <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,eos,ethereum,litecoin,ripple,binancecoin,stellar" currency="eur" background-color="#ffffff" locale="it"></coingecko-coin-price-marquee-widget>
+        </div>
+    </div>
 
     <!-- Search Results -->
     <div id="lunrsearchresults">
@@ -60,10 +66,6 @@
 
     <!-- Content -->
     <main role="main" class="site-content">
-        <div class="prices-ticker">
-            <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
-            <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,eos,ethereum,litecoin,ripple,binancecoin,stellar" currency="eur" background-color="#ffffff" locale="it"></coingecko-coin-price-marquee-widget>
-        </div>
         {{ content }}
     </main>
 
