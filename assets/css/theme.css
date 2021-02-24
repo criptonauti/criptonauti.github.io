@@ -14,7 +14,10 @@ body {
 	margin-top:-30px;
 }
 .tv-embed-widget-wrapper__body {
-	border: 0;
+	border: 0 !important;
+}
+.tradingview-widget-copyright {
+	display: none;
 }
 img {
 	max-width:100%;
