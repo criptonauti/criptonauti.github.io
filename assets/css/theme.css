@@ -13,6 +13,9 @@ body {
 .remove-site-content-margin {
 	margin-top:-30px;
 }
+.tv-embed-widget-wrapper__body {
+	border: 0;
+}
 img {
 	max-width:100%;
 }
