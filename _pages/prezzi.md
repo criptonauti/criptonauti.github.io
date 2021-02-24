@@ -2,8 +2,8 @@
 title: "Prezzi"
 layout: page-sidebar
 permalink: "/prezzi.html"
-image: "/assets/images/screenshot.jpg"
-comments: true
+image: ""
+comments: false
 ---
 
 <!-- TradingView Widget BEGIN -->
